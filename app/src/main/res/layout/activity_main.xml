@@ -20,6 +20,8 @@
             android:layout_height="wrap_content"
             android:hint="@string/id"
             android:inputType="text"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:padding="10dp"
             android:textSize="25sp"  />
 
@@ -36,5 +38,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_result"
+        android:layout_marginLeft="8dp"
         android:text="@string/result" />
 </LinearLayout>
